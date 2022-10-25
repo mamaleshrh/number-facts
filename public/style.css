@@ -1,0 +1,111 @@
+
+body{
+
+    /* background: black; */
+    background-image:url("https://media.istockphoto.com/photos/circuit-board-motherboard-digital-chip-tech-science-background-picture-id1205830453?k=20&m=1205830453&s=612x612&w=0&h=N_0qIG2mcPYFGNlzSzEcWnmxtvbpE6J0owQLfKsERsk=");
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: white;
+    font-family: 'Righteous', cursive;
+    
+}
+.inline{
+    display: inline-block;
+    /* color: #fff; */
+    /* width: 30%; */
+}
+#username{
+    width: 40vw;
+}
+.btn{
+    background-color:  rgba(59, 56, 56, 0.5);;
+    color: white;
+}
+.infobuton{
+    
+    position: relative;
+    left: 43%;
+    width: 14%;
+
+}
+/* .dropdown{ */
+    /* display: inline-block;
+    background-color: aqua;
+    color: red;
+} */
+
+.centre{
+    text-align: center;
+}
+.title{
+    color:white;
+    padding:14px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    margin:auto;
+    position: relative;
+
+    font-weight: 900;
+    font-size: 300%;
+
+
+}
+.buton{
+    left: 15%;
+}
+.result{
+    color:white;
+    margin-top: 30px;
+    background-color:  rgba(0, 0, 0, 0.5);;
+}
+.input{
+    background-color:  rgba(56, 52, 52, 0.5);
+    color: white;
+ 
+}
+.input:hover{
+    background: white;  
+    color: black;
+
+}
+
+.inputs .form{
+    width: 12%;
+    margin: 0 auto;
+
+}
+.qoute{
+    
+    color:white ;
+    text-align: left;
+}
+.card{
+    height: 500px;
+    text-align: center;
+    padding:20px;
+    display: inline-block;
+    background-color:black ;
+    background-color: none;
+    
+    color:white;
+    font-size: x-large;
+    /* background-color- */
+    /* font-size:xx-large; */
+    background-color: rgba(0, 0, 0, 0.5); 
+
+    /* margin: 10px; */
+}
+.footersize{
+    font-size: 200%;
+    margin: 10px;
+}
+.form{
+    margin: auto;
+}
+#number{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4rem;
+    margin-left: 30%;
+    
+}
