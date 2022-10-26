@@ -8,7 +8,7 @@ import Footer from './footer';
 function App() {
   return (
     <div>  
-    <div className='centre top'>
+    <div className='centre top '>
     <img className="inline " src="./logo.png" alt="logo"/>
     <h1 className='inline title'>Number Facts</h1>
     <p className='quote'>number rules the universe ~ pythagoras</p>  
