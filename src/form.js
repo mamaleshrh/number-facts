@@ -56,7 +56,7 @@ function Form(){
     
 return(
   <div className='inputs top1  '>
-  <h2 className='centre'>Specific fact searcher</h2>
+  <h2 className='centre'>🪙Specific fact searcher</h2>
     <form onSubmit={handleSubmit}>
 
     <div  id="number" className='form input-group-lg mb-3'>

@@ -24,7 +24,7 @@ function App() {
       </div>
       
       <div className='allcards row top3'>
-      <h2 className="centre">Random fact searcher</h2>
+      <h2 className="centre">🪙Random fact searcher</h2>
       <Card fact="math"/>
       <Card fact="trivia"/>
       <Card fact="year"/>

@@ -69,7 +69,7 @@ function Form2(){
     
 return(
   <div   >
-  <h2 className='centre'>Range fact searcher</h2>
+  <h2 className='centre'>🪙Range fact searcher</h2>
     <form onSubmit={handleSubmit}>
         <div className=' input-group-lg'>
 
