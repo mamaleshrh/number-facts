@@ -1,20 +1,53 @@
 
 body{
-
-    /* background: black; */
-    background-image:url("https://media.istockphoto.com/photos/circuit-board-motherboard-digital-chip-tech-science-background-picture-id1205830453?k=20&m=1205830453&s=612x612&w=0&h=N_0qIG2mcPYFGNlzSzEcWnmxtvbpE6J0owQLfKsERsk=");
-    background-repeat: repeat-y;
-    background-size: cover;
-    color: white;
+    margin: 0;;
+    padding: 0;
+    border: none;
+    background-color:#BBE1FA;
     font-family: 'Righteous', cursive;
     
 }
+h2{
+    color:rgb(71, 215, 225);
+    margin-bottom: 20px;
+}
+.top{
+    background-color:#E23E57;
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.top1{
+    background-color:#88304E;
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.top2{
+    background-color: #522546;
+    
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.top3{
+    background-color:black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+
+}
+.top4{
+    background-color:black;
+    
+    overflow: hidden;
+}
 .inline{
     display: inline-block;
-    /* color: #fff; */
-    /* width: 30%; */
+
 }
-#username{
+#numberEntered{
     width: 40vw;
 }
 .btn{
@@ -26,19 +59,15 @@ body{
     position: relative;
     left: 43%;
     width: 14%;
+    /* margin-bottom: 0; */
 
 }
-/* .dropdown{ */
-    /* display: inline-block;
-    background-color: aqua;
-    color: red;
-} */
 
 .centre{
     text-align: center;
 }
 .title{
-    color:white;
+    color:rgb(71, 215, 225);
     padding:14px;
     text-align: center;
     font-family: 'Righteous', cursive;
@@ -49,6 +78,10 @@ body{
     font-size: 300%;
 
 
+}
+.maxmin{
+    width:33%;
+    
 }
 .buton{
     left: 15%;
@@ -61,6 +94,9 @@ body{
 .input{
     background-color:  rgba(56, 52, 52, 0.5);
     color: white;
+    width:50%;
+    margin: 0px auto;
+    margin-bottom: 0%;
  
 }
 .input:hover{
@@ -76,28 +112,31 @@ body{
 }
 .qoute{
     
-    color:white ;
+    color:rgb(71, 215, 225);
     text-align: left;
+    margin-bottom: 0%;
+}
+p{
+    color:rgb(71, 215, 225);
+    /* color: white; */
 }
 .card{
     height: 500px;
     text-align: center;
     padding:20px;
     display: inline-block;
-    background-color:black ;
-    background-color: none;
+
     
     color:white;
     font-size: x-large;
-    /* background-color- */
-    /* font-size:xx-large; */
-    background-color: rgba(0, 0, 0, 0.5); 
 
-    /* margin: 10px; */
+    background-color: black; 
+
 }
 .footersize{
     font-size: 200%;
     margin: 10px;
+    
 }
 .form{
     margin: auto;
@@ -108,4 +147,11 @@ body{
     gap: 4rem;
     margin-left: 30%;
     
+
+}
+.footersec{
+    color: white;
+}
+h3{
+    color:rgb(71, 215, 225);
 }
