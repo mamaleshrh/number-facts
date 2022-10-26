@@ -74,14 +74,14 @@ return(
         <div className=' input-group-lg'>
 
     <div className='row'>
-            <div className='col col-lg-4 col-md-4 maxmin container'>
+            <div className='col col-lg-4  col-md-4 col-sm-6 col-12  container'>
                 <input className='form-control input centre  ' type="number" autoComplete='off' id="minimum" placeholder='enter the minimum'/>
             </div>
-            <div className='col col-lg-4 col-md-4 maxmin container'>
+            <div className='col col-lg-4 col-md-4 col-sm-6 col-12 container'>
                 <input className='form-control input centre' type="number" autoComplete='off' id="maximum" placeholder='enter the maximum'/>
             </div>
-            <div className='col col-lg-4 col-md-4  maxmin container '>
-                <select className='btn btn-light dropdown-toggle mt-4 dropdown maxmin'  value={value} onChange={handleChange}>
+            <div className='col col-lg-4 col-md-4 col-12  container addmargin'>
+                <select className='btn btn-light dropdown-toggle dropdown ' style={{width:"50%"}}  value={value} onChange={handleChange}>
                     <option className='dropdown-item' value="trivia">trivia</option>
                     <option className='dropdown-item' value="math">math</option>
                     <option className='dropdown-item' value="year">year</option>
@@ -98,7 +98,7 @@ return(
 
     
       
-      <button className='btn btn-outline-danger infobuton container ' type='submit button'>get fact</button>
+      <button className='btn btn-outline-danger infobuton container mt-4 ' type='submit button'>get fact</button>
 
 
     </form>

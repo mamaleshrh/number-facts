@@ -62,7 +62,7 @@ return(
     <div  id="number" className='form input-group-lg mb-3'>
       <input className='form-control input centre' type="number" autoComplete='off' id="numberEntered" placeholder='enter the number'/>
      
-      <select className='btn btn-light dropdown-toggle mt-4 dropdown'  value={value} onChange={handleChange}>
+      <select className='btn btn-light dropdown-toggle mt-4 dropdown fbutton'  value={value} onChange={handleChange}>
         <option className='dropdown-item input' value="trivia">trivia</option>
         <option className='dropdown-item input' value="math">math</option>
         <option className='dropdown-item input' value="year">year</option>

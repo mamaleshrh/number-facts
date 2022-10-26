@@ -48,7 +48,10 @@ h2{
 
 }
 #numberEntered{
-    width: 40vw;
+    width: 30vw;
+}
+.fbutton{
+    width:20vw;
 }
 .btn{
     background-color:  rgba(59, 56, 56, 0.5);;
@@ -79,10 +82,10 @@ h2{
 
 
 }
-.maxmin{
+/* .maxmin{
     width:33%;
     
-}
+} */
 .buton{
     left: 15%;
 }
@@ -144,8 +147,8 @@ p{
 #number{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 4rem;
-    margin-left: 30%;
+    gap: 10%;
+    margin-left: 20%;
     
 
 }
@@ -154,4 +157,7 @@ p{
 }
 h3{
     color:rgb(71, 215, 225);
+}
+.addmargin{
+    text-align: center;
 }
