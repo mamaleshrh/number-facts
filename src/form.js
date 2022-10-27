@@ -59,16 +59,23 @@ return(
   <h2 className='centre'>🪙Specific fact searcher</h2>
     <form onSubmit={handleSubmit}>
 
-    <div  id="number" className='form input-group-lg mb-3'>
-      <input className='form-control input centre' type="number" autoComplete='off' id="numberEntered" placeholder='enter the number'/>
-     
-      <select className='btn btn-light dropdown-toggle mt-4 dropdown fbutton'  value={value} onChange={handleChange}>
-        <option className='dropdown-item input' value="trivia">trivia</option>
-        <option className='dropdown-item input' value="math">math</option>
-        <option className='dropdown-item input' value="year">year</option>
-      </select>
+    <div className=' input-group-lg'>
 
+<div className='row'>
+        <div className='col col-lg-6  col-md-6 col-sm-12 col-12  container mb-3 mt-3'>
+            <input className='form-control input centre finput' type="number" autoComplete='off' id="minimum" placeholder='enter the number'/>
+        </div>
+
+        <div className='col col-lg-6 col-md-6 col-12  container addmargin'>
+            <select className='btn btn-light dropdown-toggle dropdown sinput '  value={value} onChange={handleChange}>
+                <option className='dropdown-item' value="trivia">trivia</option>
+                <option className='dropdown-item' value="math">math</option>
+                <option className='dropdown-item' value="year">year</option>
+
+            </select>
+        </div>
     </div>
+</div>
       
       <button className='btn btn-outline-danger infobuton container ' type='submit button'>get fact</button>
 

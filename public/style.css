@@ -50,9 +50,9 @@ h2{
 #numberEntered{
     width: 30vw;
 }
-.fbutton{
+/* .fbutton{
     width:20vw;
-}
+} */
 .btn{
     background-color:  rgba(59, 56, 56, 0.5);;
     color: white;
@@ -141,17 +141,17 @@ p{
     margin: 10px;
     
 }
-.form{
+/* .form{
     margin: auto;
-}
-#number{
+} */
+/* #number{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10%;
     margin-left: 20%;
     
 
-}
+} */
 .footersec{
     color: white;
 }
@@ -161,3 +161,15 @@ h3{
 .addmargin{
     text-align: center;
 }
+@media screen and (min-width: 770px) {
+    .finput {
+        width:50%;
+         position:relative;
+         left:15%;
+    }
+    .sinput{
+        width:50%;
+         position:relative;
+         right:15%;
+    }
+  }
